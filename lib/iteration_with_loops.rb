@@ -7,7 +7,7 @@ def find_min_in_nested_arrays(src)
     smallest_n = src[index][0];
     src[index].length.times do |index2|
       if smallest_n > src[index][index2]
-        smallest_n = scr[index][index2];
+        smallest_n = src[index][index2];
       end
     end
     smallest_n_array << smallest_n; 
